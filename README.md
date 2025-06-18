@@ -40,7 +40,7 @@
 ### 1. Клонирование репозитория
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Evolutemaker/promotions.git
 cd promotions
 ```
 
@@ -64,8 +64,8 @@ dart run build_runner build --delete-conflicting-outputs
 Создайте файл `.env` в корне проекта:
 
 ```env
-SUPABASE_URL=your_supabase_url
-SUPABASE_ANON_KEY=your_supabase_anon_key
+SUPABASE_URL='https://atuylbjxizsegyjyeywi.supabase.co'
+SUPABASE_ANON_KEY='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImF0dXlsYmp4aXpzZWd5anlleXdpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTAxNzQwNDMsImV4cCI6MjA2NTc1MDA0M30.mLiiQCHmT3kXd0ftyK1GFYvkncSuM8XwxOKQHpUuJxg'
 ```
 
 
